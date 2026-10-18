@@ -65,12 +65,12 @@ Plots are saved in `results/`.
 | Perceptron on XOR | 0.50, never converges |
 | MLP `[2, 4, 2]`, tanh | 1.00 |
 
-![MLP solves XOR](results/mlp_xor.png)
+![MLP solves XOR](neural_network/results/mlp_xor.png)
 
 **scikit-learn digits (8x8), MLP `[64, 64, 32, 10]`, tanh, 40 epochs, lr 0.1:** test accuracy 0.964
 (1259 train / 179 validation / 359 test samples, seed 0).
 
-![Digits training curves](results/digits_curves.png)
+![Digits training curves](neural_network/results/digits_curves.png)
 
 ## Project structure
 
